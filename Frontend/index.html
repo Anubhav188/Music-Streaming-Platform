@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Online Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player">
+      <img src="poster.png" alt="Song Poster" class="poster" />
+
+      <div class="info">
+        <h2 id="title">Shape of You</h2>
+        <p id="artist">Ed Sheeran</p>
+      </div>
+
+      <audio id="audio" src="song.mp3"></audio>
+
+      <div class="controls">
+        <button id="shuffle">🔀</button>
+        <button id="prev">⏮</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭</button>
+        <button id="repeat">🔁</button>
+      </div>
+
+      <div class="seek-bar">
+        <span id="current">0:00</span>
+        <input type="range" id="seek" value="0" />
+        <span id="duration">0:00</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

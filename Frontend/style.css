@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #181818;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  background: #282828;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.poster {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info {
+  margin: 15px 0;
+}
+
+.controls button {
+  margin: 10px 5px;
+  font-size: 20px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.seek-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.seek-bar input[type="range"] {
+  flex: 1;
+}
