@@ -29,5 +29,3 @@ TuneNest is a modern music streaming application where users can create accounts
   <li>🔃 Load a Custom Playlist</li>
 </ul>
 
-## Setup Instructions
-https://github.com/Adarsh-afk661/Guvi-project.git
